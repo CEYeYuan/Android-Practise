@@ -1,0 +1,2 @@
+app/java/right click new activity(launcher)
+app/res/values

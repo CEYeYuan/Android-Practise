@@ -1,0 +1,13 @@
+activity -> subclass of Activity
+
+import android.util.Log;
+private static final String TAG = "MyMsg";
+Log.i(TAG," onCreate");
+cmd+n : completion
+
+
+life cycle:
+onCreate : set up the layout
+onStart : after on start/restart, about to start
+onResume : activity currently is open
+onPause : no longer seeing this activity

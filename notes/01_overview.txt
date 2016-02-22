@@ -1,0 +1,24 @@
+app/java/*/MainActivity.java
+app/res/layout/activity_main.xml
+app/manifests/AndroidMainfest.xml	
+
+//keep track of all the activities
+<activity
+    android:name=".MainActivity"
+    android:label="@string/app_name"
+    android:theme="@style/AppTheme.NoActionBar">
+    <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+
+        <category android:name="android.intent.category.LAUNCHER" />// main activity
+    </intent-filter>
+</activity>
+
+launcher.java ->  setContentView(R.layout.activity_main); //set the correct view
+
+xml file : presentation
+java file: define behaviors
+
+layouts: design view / text view
+<RelativeLayout android: background= "">
+</RelativeLayout>
