@@ -2,14 +2,8 @@ app/java/right click new activity(launcher)
 app/res/values
 view : any type of widgets
 
+fragment : 
+	right click layout : create new resource file
+	right click package name under java : new class
+	fragment never directly talk to each other
 
-import android.widget.RelativeLayout;
-import android.widget.Button;
-import android.graphics.Color;
-
-
-detect gestures:
-import android.widget.TextView;
-import android.view.MotionEvent;
-import android.view.GestureDetector;
-import android.support.v4.view.GestureDetectorCompat;
